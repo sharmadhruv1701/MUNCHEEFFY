@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MUNCHEEFFY</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+        *{
+          margin:0;
+          padding: 0;
+          box-sizing: border-box;
+          list-style: none;
+          font-family: 'Montserrat', sans-serif;
+        }
+
+        body{
+          background:#fafafa;
+         );
+        }
+
+        .wrapper{
+          min-height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .registration_form{
+          background: white;
+          padding: 25px;
+          border-radius: 5px;
+          width: 400px;
+        }
+
+        .registration_form .title{
+          text-align: center;
+          font-size: 25px;
+          text-transform: uppercase;
+          color: #F34949;
+          font-family: Monotype Corsiva;
+          letter-spacing: 2px;
+          font-weight: 700;
+          margin-left:-25px;
+          margin-right:-25px;
+        }
+
+        .form_wrap{
+          margin-top: 35px;
+        }
+
+        .form_wrap .input_wrap{
+          margin-bottom: 15px;
+        }
+
+        .form_wrap .input_wrap:last-child{
+          margin-bottom: 0;
+        }
+
+        .form_wrap .input_wrap label{
+          display: block;
+          margin-bottom: 3px;
+          color: #1a1a1f;
+          font-family:Berlin Sans FB;
+        }
+
+        .form_wrap .input_grp{
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .form_wrap .input_grp  input[type="text"]{
+          width: 165px;
+        }
+
+        .form_wrap  input[type="text"]{
+          width: 100%;
+          border-radius: 3px;
+          border: 1.3px solid #9597a6;
+          padding: 10px;
+          outline: none;
+        }
+
+        .form_wrap  input[type="text"]:focus{
+          border-color: #063abd;
+        }
+
+        .form_wrap ul{
+         border:1px solid rgb(115, 185, 235);
+          width:70%;
+          background: rgb(206, 238, 242);
+          margin-left: 15%;
+          padding: 8px 10px;
+          border-radius: 20px;
+          display: flex;
+          justify-content: center;
+        }
+
+        .form_wrap ul li:first-child{
+          margin-right: 15px;
+        }
+
+        .form_wrap ul .radio_wrap{
+          position: relative;
+          margin-bottom: 0;
+        }
+
+        .form_wrap ul .radio_wrap .input_radio{
+          position: absolute;
+          top: 0;
+          right: 0;
+          opacity: 0;
+        }
+
+        .form_wrap ul .radio_wrap span{
+          display: inline-block;
+          font-size: 17px;
+          padding: 3px 15px;
+          border-radius: 15px;
+          color: #101749;
+        }
+
+        .form_wrap .input_radio:checked ~ span{
+          background: #105ce2;
+          color:white;
+        }
+
+        .form_wrap .submit_btn{
+          width: 100%;
+          background: #f34949;
+          padding: 10px;
+          border: 0;
+          color:white;
+          font-size:17px;
+          border-radius: 3px;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          cursor: pointer;
+        }
+        .form_wrap .submit_btn-primary{
+          background: #051c94;
+        }
+        </style>
+      </head>
+      <body>
+
+    	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light ftco-navbar-light-2" id="ftco-navbar">
+    	    <div class="container">
+    	      <a class="navbar-brand" href="index.html"><span style="font-family:Colonna MT;  font-size: 45px;">MUNCHEEFFY</span></a>
+    	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+    	        <span class="oi oi-menu"></span> Menu
+    	      </button>
+
+    	      <div class="collapse navbar-collapse" id="ftco-nav">
+    	        <ul class="navbar-nav ml-auto">
+    	        	<li class="nav-item"><a href="index.html" class="nav-link" style="font-family:Lucida Bright; font-size:15px;">Home</a></li>
+    	        	<li class="nav-item"><a href="about.html" class="nav-link" style="font-family:Lucida Bright; font-size:15px;">About</a></li>
+    	        	<li class="nav-item"><a href="menu.html" class="nav-link" style="font-family:Lucida Bright; font-size:15px;">Specialities</a></li>
+    	        	<li class="nav-item"><a href="reservation.html" class="nav-link" style="font-family:Lucida Bright; font-size:15px;">Reservation</a></li>
+    	        	<li class="nav-item"><a href="blog.html" class="nav-link" style="font-family:Lucida Bright; font-size:15px;">Stories</a></li>
+    	          <li class="nav-item"><a href="contact.html" class="nav-link" style="font-family:Lucida Bright; font-size:15px;">Contact</a></li>
+                 <li class="nav-item active"><a href="contact.html" class="nav-link" style="font-family:Lucida Bright; font-size:15px;">Customization</a></li>
+    	        </ul>
+    	      </div>
+    	    </div>
+    	  </nav>
+        <!-- END nav -->
+
+        <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_4.jpg');" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-center">
+              <div class="col-md-9 ftco-animate text-center">
+                <h1 class="mb-2 bread">About</h1>
+                <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>About <i class="ion-ios-arrow-forward"></i></span></p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <div class="wrapper">
+        <div class="registration_form">
+          <div class="title">
+            Customize your own Thali
+          </div>
+
+          <form>
+            <div class="form_wrap">
+              <div class="input_grp">
+                <div class="input_wrap">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname">
+                </div>
+                <div class="input_wrap">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname">
+                </div>
+              </div>
+              <div class="input_wrap">
+                <label for="email">Email Address</label>
+                <input type="text" id="email">
+              </div>
+
+              <div class="input_wrap">
+                <label for="city">Address</label>
+                <input type="text" id="city">
+              </div>
+              <div class="input_wrap">
+                <label for="city">Thali  (Includes)</label>
+                <input type="text" id="Thali">
+              </div>
+              <div class="input_wrap">
+                <input type="submit" value="BOOK NOW" class="submit_btn">
+              </div>
+
+         </div>
+       </form>
+      </div>
+</div>
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-6 col-lg-3">
+        <div class="ftco-footer-widget mb-4">
+           <h2 class="ftco-heading-2"> <span style="font-family:Colonna MT; font-size:30px;">MUNCHEEFFY</span></h2>
+          <p style="font-family:Maiandra GD; font-size:15px;">Where every bite tells a story of flavors, love, and togetherness. Welcome to our Tiffin Centre, where every meal is a delicious journey that nourishes your soul and brings smiles to your taste buds."</p>
+          <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Open Hours</h2>
+          <ul class="list-unstyled open-hours">
+            <li class="d-flex"><span>Monday</span><span>9:00am - 10:00pm</span></li>
+            <li class="d-flex"><span>Tuesday</span><span>9:00am - 10:00pm</span></li>
+            <li class="d-flex"><span>Wednesday</span><span>9:00am - 10:00pm</span></li>
+            <li class="d-flex"><span>Thursday</span><span>9:00am - 10:00pm</span></li>
+            <li class="d-flex"><span>Friday</span><span>9:00am - 10:00pm</span></li>
+            <li class="d-flex"><span>Saturday</span><span>9:00am - 10:00pm</span></li>
+            <li class="d-flex"><span>Sunday</span><span> Closed</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Newsletter</h2>
+          <p style="font-family:Gabriola; font-size:20px;">Where Flavor Meets Convenience - Unveil the Joy of Tiffin Delights!</p>
+          <form action="#" class="subscribe-form">
+            <div class="form-group">
+              <input type="text" class="form-control mb-2 text-center" style="font-size:15px;" placeholder="Enter email address">
+              <input type="submit" style="font-size:18px;" value="Subscribe" class="form-control submit px-3">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+         <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Instagram</h2>
+          <div class="thumb d-sm-flex">
+            <a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
+            </a>
+            <a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
+            </a>
+            <a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
+            </a>
+          </div>
+          <div class="thumb d-flex">
+            <a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
+            </a>
+            <a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
+            </a>
+            <a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
